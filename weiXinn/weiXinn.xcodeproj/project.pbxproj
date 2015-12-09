@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23EF61741C186DCD00325A01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EF61731C186DCD00325A01 /* main.m */; };
+		23EF61771C186DCD00325A01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EF61761C186DCD00325A01 /* AppDelegate.m */; };
+		23EF617A1C186DCD00325A01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EF61791C186DCD00325A01 /* ViewController.m */; };
+		23EF617D1C186DCD00325A01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23EF617B1C186DCD00325A01 /* Main.storyboard */; };
+		23EF617F1C186DCD00325A01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EF617E1C186DCD00325A01 /* Assets.xcassets */; };
+		23EF61821C186DCD00325A01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23EF61801C186DCD00325A01 /* LaunchScreen.storyboard */; };
+		23EF618D1C186DCD00325A01 /* weiXinnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EF618C1C186DCD00325A01 /* weiXinnTests.m */; };
+		23EF61981C186DCD00325A01 /* weiXinnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EF61971C186DCD00325A01 /* weiXinnUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23EF61891C186DCD00325A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23EF61671C186DCD00325A01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23EF616E1C186DCD00325A01;
+			remoteInfo = weiXinn;
+		};
+		23EF61941C186DCD00325A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23EF61671C186DCD00325A01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23EF616E1C186DCD00325A01;
+			remoteInfo = weiXinn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23EF616F1C186DCD00325A01 /* weiXinn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weiXinn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23EF61731C186DCD00325A01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23EF61751C186DCD00325A01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23EF61761C186DCD00325A01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23EF61781C186DCD00325A01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		23EF61791C186DCD00325A01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		23EF617C1C186DCD00325A01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23EF617E1C186DCD00325A01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23EF61811C186DCD00325A01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23EF61831C186DCD00325A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23EF61881C186DCD00325A01 /* weiXinnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiXinnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23EF618C1C186DCD00325A01 /* weiXinnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiXinnTests.m; sourceTree = "<group>"; };
+		23EF618E1C186DCD00325A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23EF61931C186DCD00325A01 /* weiXinnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiXinnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23EF61971C186DCD00325A01 /* weiXinnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiXinnUITests.m; sourceTree = "<group>"; };
+		23EF61991C186DCD00325A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23EF616C1C186DCD00325A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23EF61851C186DCD00325A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23EF61901C186DCD00325A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23EF61661C186DCD00325A01 = {
+			isa = PBXGroup;
+			children = (
+				23EF61711C186DCD00325A01 /* weiXinn */,
+				23EF618B1C186DCD00325A01 /* weiXinnTests */,
+				23EF61961C186DCD00325A01 /* weiXinnUITests */,
+				23EF61701C186DCD00325A01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23EF61701C186DCD00325A01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23EF616F1C186DCD00325A01 /* weiXinn.app */,
+				23EF61881C186DCD00325A01 /* weiXinnTests.xctest */,
+				23EF61931C186DCD00325A01 /* weiXinnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23EF61711C186DCD00325A01 /* weiXinn */ = {
+			isa = PBXGroup;
+			children = (
+				23EF61751C186DCD00325A01 /* AppDelegate.h */,
+				23EF61761C186DCD00325A01 /* AppDelegate.m */,
+				23EF61781C186DCD00325A01 /* ViewController.h */,
+				23EF61791C186DCD00325A01 /* ViewController.m */,
+				23EF617B1C186DCD00325A01 /* Main.storyboard */,
+				23EF617E1C186DCD00325A01 /* Assets.xcassets */,
+				23EF61801C186DCD00325A01 /* LaunchScreen.storyboard */,
+				23EF61831C186DCD00325A01 /* Info.plist */,
+				23EF61721C186DCD00325A01 /* Supporting Files */,
+			);
+			path = weiXinn;
+			sourceTree = "<group>";
+		};
+		23EF61721C186DCD00325A01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23EF61731C186DCD00325A01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23EF618B1C186DCD00325A01 /* weiXinnTests */ = {
+			isa = PBXGroup;
+			children = (
+				23EF618C1C186DCD00325A01 /* weiXinnTests.m */,
+				23EF618E1C186DCD00325A01 /* Info.plist */,
+			);
+			path = weiXinnTests;
+			sourceTree = "<group>";
+		};
+		23EF61961C186DCD00325A01 /* weiXinnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23EF61971C186DCD00325A01 /* weiXinnUITests.m */,
+				23EF61991C186DCD00325A01 /* Info.plist */,
+			);
+			path = weiXinnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23EF616E1C186DCD00325A01 /* weiXinn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23EF619C1C186DCD00325A01 /* Build configuration list for PBXNativeTarget "weiXinn" */;
+			buildPhases = (
+				23EF616B1C186DCD00325A01 /* Sources */,
+				23EF616C1C186DCD00325A01 /* Frameworks */,
+				23EF616D1C186DCD00325A01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weiXinn;
+			productName = weiXinn;
+			productReference = 23EF616F1C186DCD00325A01 /* weiXinn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23EF61871C186DCD00325A01 /* weiXinnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23EF619F1C186DCD00325A01 /* Build configuration list for PBXNativeTarget "weiXinnTests" */;
+			buildPhases = (
+				23EF61841C186DCD00325A01 /* Sources */,
+				23EF61851C186DCD00325A01 /* Frameworks */,
+				23EF61861C186DCD00325A01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23EF618A1C186DCD00325A01 /* PBXTargetDependency */,
+			);
+			name = weiXinnTests;
+			productName = weiXinnTests;
+			productReference = 23EF61881C186DCD00325A01 /* weiXinnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23EF61921C186DCD00325A01 /* weiXinnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23EF61A21C186DCD00325A01 /* Build configuration list for PBXNativeTarget "weiXinnUITests" */;
+			buildPhases = (
+				23EF618F1C186DCD00325A01 /* Sources */,
+				23EF61901C186DCD00325A01 /* Frameworks */,
+				23EF61911C186DCD00325A01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23EF61951C186DCD00325A01 /* PBXTargetDependency */,
+			);
+			name = weiXinnUITests;
+			productName = weiXinnUITests;
+			productReference = 23EF61931C186DCD00325A01 /* weiXinnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23EF61671C186DCD00325A01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "代碧";
+				TargetAttributes = {
+					23EF616E1C186DCD00325A01 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					23EF61871C186DCD00325A01 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 23EF616E1C186DCD00325A01;
+					};
+					23EF61921C186DCD00325A01 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 23EF616E1C186DCD00325A01;
+					};
+				};
+			};
+			buildConfigurationList = 23EF616A1C186DCD00325A01 /* Build configuration list for PBXProject "weiXinn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23EF61661C186DCD00325A01;
+			productRefGroup = 23EF61701C186DCD00325A01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23EF616E1C186DCD00325A01 /* weiXinn */,
+				23EF61871C186DCD00325A01 /* weiXinnTests */,
+				23EF61921C186DCD00325A01 /* weiXinnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23EF616D1C186DCD00325A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23EF61821C186DCD00325A01 /* LaunchScreen.storyboard in Resources */,
+				23EF617F1C186DCD00325A01 /* Assets.xcassets in Resources */,
+				23EF617D1C186DCD00325A01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23EF61861C186DCD00325A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23EF61911C186DCD00325A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23EF616B1C186DCD00325A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23EF617A1C186DCD00325A01 /* ViewController.m in Sources */,
+				23EF61771C186DCD00325A01 /* AppDelegate.m in Sources */,
+				23EF61741C186DCD00325A01 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23EF61841C186DCD00325A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23EF618D1C186DCD00325A01 /* weiXinnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23EF618F1C186DCD00325A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23EF61981C186DCD00325A01 /* weiXinnUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23EF618A1C186DCD00325A01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23EF616E1C186DCD00325A01 /* weiXinn */;
+			targetProxy = 23EF61891C186DCD00325A01 /* PBXContainerItemProxy */;
+		};
+		23EF61951C186DCD00325A01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23EF616E1C186DCD00325A01 /* weiXinn */;
+			targetProxy = 23EF61941C186DCD00325A01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23EF617B1C186DCD00325A01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23EF617C1C186DCD00325A01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23EF61801C186DCD00325A01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23EF61811C186DCD00325A01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23EF619A1C186DCD00325A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23EF619B1C186DCD00325A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23EF619D1C186DCD00325A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = weiXinn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kk.weiXinn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23EF619E1C186DCD00325A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = weiXinn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kk.weiXinn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		23EF61A01C186DCD00325A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = weiXinnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kk.weiXinnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weiXinn.app/weiXinn";
+			};
+			name = Debug;
+		};
+		23EF61A11C186DCD00325A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = weiXinnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kk.weiXinnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weiXinn.app/weiXinn";
+			};
+			name = Release;
+		};
+		23EF61A31C186DCD00325A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = weiXinnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kk.weiXinnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = weiXinn;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		23EF61A41C186DCD00325A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = weiXinnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kk.weiXinnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = weiXinn;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23EF616A1C186DCD00325A01 /* Build configuration list for PBXProject "weiXinn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23EF619A1C186DCD00325A01 /* Debug */,
+				23EF619B1C186DCD00325A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23EF619C1C186DCD00325A01 /* Build configuration list for PBXNativeTarget "weiXinn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23EF619D1C186DCD00325A01 /* Debug */,
+				23EF619E1C186DCD00325A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23EF619F1C186DCD00325A01 /* Build configuration list for PBXNativeTarget "weiXinnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23EF61A01C186DCD00325A01 /* Debug */,
+				23EF61A11C186DCD00325A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23EF61A21C186DCD00325A01 /* Build configuration list for PBXNativeTarget "weiXinnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23EF61A31C186DCD00325A01 /* Debug */,
+				23EF61A41C186DCD00325A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23EF61671C186DCD00325A01 /* Project object */;
+}
