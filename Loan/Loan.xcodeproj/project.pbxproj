@@ -7,81 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23EF62161C18729200325A01 /* Loan.h in Headers */ = {isa = PBXBuildFile; fileRef = 23EF62151C18729200325A01 /* Loan.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23EF621D1C18729200325A01 /* Loan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23EF62121C18729200325A01 /* Loan.framework */; };
-		23EF62221C18729200325A01 /* LoanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EF62211C18729200325A01 /* LoanTests.m */; };
+		23EF62C11C187B8900325A01 /* Loan.h in Headers */ = {isa = PBXBuildFile; fileRef = 23EF62C01C187B8900325A01 /* Loan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23EF62C81C187B8900325A01 /* Loan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23EF62BD1C187B8900325A01 /* Loan.framework */; };
+		23EF62CD1C187B8900325A01 /* LoanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EF62CC1C187B8900325A01 /* LoanTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		23EF621E1C18729200325A01 /* PBXContainerItemProxy */ = {
+		23EF62C91C187B8900325A01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 23EF62091C18729200325A01 /* Project object */;
+			containerPortal = 23EF62B41C187B8900325A01 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 23EF62111C18729200325A01;
+			remoteGlobalIDString = 23EF62BC1C187B8900325A01;
 			remoteInfo = Loan;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		23EF62121C18729200325A01 /* Loan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Loan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		23EF62151C18729200325A01 /* Loan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Loan.h; sourceTree = "<group>"; };
-		23EF62171C18729200325A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23EF621C1C18729200325A01 /* LoanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		23EF62211C18729200325A01 /* LoanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoanTests.m; sourceTree = "<group>"; };
-		23EF62231C18729200325A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23EF62BD1C187B8900325A01 /* Loan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Loan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23EF62C01C187B8900325A01 /* Loan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Loan.h; sourceTree = "<group>"; };
+		23EF62C21C187B8900325A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23EF62C71C187B8900325A01 /* LoanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23EF62CC1C187B8900325A01 /* LoanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoanTests.m; sourceTree = "<group>"; };
+		23EF62CE1C187B8900325A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		23EF620E1C18729200325A01 /* Frameworks */ = {
+		23EF62B91C187B8900325A01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23EF62191C18729200325A01 /* Frameworks */ = {
+		23EF62C41C187B8900325A01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23EF621D1C18729200325A01 /* Loan.framework in Frameworks */,
+				23EF62C81C187B8900325A01 /* Loan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23EF62081C18729200325A01 = {
+		23EF62B31C187B8900325A01 = {
 			isa = PBXGroup;
 			children = (
-				23EF62141C18729200325A01 /* Loan */,
-				23EF62201C18729200325A01 /* LoanTests */,
-				23EF62131C18729200325A01 /* Products */,
+				23EF62BF1C187B8900325A01 /* Loan */,
+				23EF62CB1C187B8900325A01 /* LoanTests */,
+				23EF62BE1C187B8900325A01 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		23EF62131C18729200325A01 /* Products */ = {
+		23EF62BE1C187B8900325A01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				23EF62121C18729200325A01 /* Loan.framework */,
-				23EF621C1C18729200325A01 /* LoanTests.xctest */,
+				23EF62BD1C187B8900325A01 /* Loan.framework */,
+				23EF62C71C187B8900325A01 /* LoanTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		23EF62141C18729200325A01 /* Loan */ = {
+		23EF62BF1C187B8900325A01 /* Loan */ = {
 			isa = PBXGroup;
 			children = (
-				23EF62151C18729200325A01 /* Loan.h */,
-				23EF62171C18729200325A01 /* Info.plist */,
+				23EF62C01C187B8900325A01 /* Loan.h */,
+				23EF62C21C187B8900325A01 /* Info.plist */,
 			);
 			path = Loan;
 			sourceTree = "<group>";
 		};
-		23EF62201C18729200325A01 /* LoanTests */ = {
+		23EF62CB1C187B8900325A01 /* LoanTests */ = {
 			isa = PBXGroup;
 			children = (
-				23EF62211C18729200325A01 /* LoanTests.m */,
-				23EF62231C18729200325A01 /* Info.plist */,
+				23EF62CC1C187B8900325A01 /* LoanTests.m */,
+				23EF62CE1C187B8900325A01 /* Info.plist */,
 			);
 			path = LoanTests;
 			sourceTree = "<group>";
@@ -89,25 +89,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		23EF620F1C18729200325A01 /* Headers */ = {
+		23EF62BA1C187B8900325A01 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23EF62161C18729200325A01 /* Loan.h in Headers */,
+				23EF62C11C187B8900325A01 /* Loan.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		23EF62111C18729200325A01 /* Loan */ = {
+		23EF62BC1C187B8900325A01 /* Loan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23EF62261C18729200325A01 /* Build configuration list for PBXNativeTarget "Loan" */;
+			buildConfigurationList = 23EF62D11C187B8900325A01 /* Build configuration list for PBXNativeTarget "Loan" */;
 			buildPhases = (
-				23EF620D1C18729200325A01 /* Sources */,
-				23EF620E1C18729200325A01 /* Frameworks */,
-				23EF620F1C18729200325A01 /* Headers */,
-				23EF62101C18729200325A01 /* Resources */,
+				23EF62B81C187B8900325A01 /* Sources */,
+				23EF62B91C187B8900325A01 /* Frameworks */,
+				23EF62BA1C187B8900325A01 /* Headers */,
+				23EF62BB1C187B8900325A01 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -115,71 +115,71 @@
 			);
 			name = Loan;
 			productName = Loan;
-			productReference = 23EF62121C18729200325A01 /* Loan.framework */;
+			productReference = 23EF62BD1C187B8900325A01 /* Loan.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		23EF621B1C18729200325A01 /* LoanTests */ = {
+		23EF62C61C187B8900325A01 /* LoanTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23EF62291C18729200325A01 /* Build configuration list for PBXNativeTarget "LoanTests" */;
+			buildConfigurationList = 23EF62D41C187B8900325A01 /* Build configuration list for PBXNativeTarget "LoanTests" */;
 			buildPhases = (
-				23EF62181C18729200325A01 /* Sources */,
-				23EF62191C18729200325A01 /* Frameworks */,
-				23EF621A1C18729200325A01 /* Resources */,
+				23EF62C31C187B8900325A01 /* Sources */,
+				23EF62C41C187B8900325A01 /* Frameworks */,
+				23EF62C51C187B8900325A01 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				23EF621F1C18729200325A01 /* PBXTargetDependency */,
+				23EF62CA1C187B8900325A01 /* PBXTargetDependency */,
 			);
 			name = LoanTests;
 			productName = LoanTests;
-			productReference = 23EF621C1C18729200325A01 /* LoanTests.xctest */;
+			productReference = 23EF62C71C187B8900325A01 /* LoanTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		23EF62091C18729200325A01 /* Project object */ = {
+		23EF62B41C187B8900325A01 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "代碧";
 				TargetAttributes = {
-					23EF62111C18729200325A01 = {
+					23EF62BC1C187B8900325A01 = {
 						CreatedOnToolsVersion = 7.1;
 					};
-					23EF621B1C18729200325A01 = {
+					23EF62C61C187B8900325A01 = {
 						CreatedOnToolsVersion = 7.1;
 					};
 				};
 			};
-			buildConfigurationList = 23EF620C1C18729200325A01 /* Build configuration list for PBXProject "Loan" */;
+			buildConfigurationList = 23EF62B71C187B8900325A01 /* Build configuration list for PBXProject "Loan" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 23EF62081C18729200325A01;
-			productRefGroup = 23EF62131C18729200325A01 /* Products */;
+			mainGroup = 23EF62B31C187B8900325A01;
+			productRefGroup = 23EF62BE1C187B8900325A01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				23EF62111C18729200325A01 /* Loan */,
-				23EF621B1C18729200325A01 /* LoanTests */,
+				23EF62BC1C187B8900325A01 /* Loan */,
+				23EF62C61C187B8900325A01 /* LoanTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		23EF62101C18729200325A01 /* Resources */ = {
+		23EF62BB1C187B8900325A01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23EF621A1C18729200325A01 /* Resources */ = {
+		23EF62C51C187B8900325A01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -189,33 +189,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		23EF620D1C18729200325A01 /* Sources */ = {
+		23EF62B81C187B8900325A01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23EF62181C18729200325A01 /* Sources */ = {
+		23EF62C31C187B8900325A01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23EF62221C18729200325A01 /* LoanTests.m in Sources */,
+				23EF62CD1C187B8900325A01 /* LoanTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		23EF621F1C18729200325A01 /* PBXTargetDependency */ = {
+		23EF62CA1C187B8900325A01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 23EF62111C18729200325A01 /* Loan */;
-			targetProxy = 23EF621E1C18729200325A01 /* PBXContainerItemProxy */;
+			target = 23EF62BC1C187B8900325A01 /* Loan */;
+			targetProxy = 23EF62C91C187B8900325A01 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		23EF62241C18729200325A01 /* Debug */ = {
+		23EF62CF1C187B8900325A01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,7 +262,7 @@
 			};
 			name = Debug;
 		};
-		23EF62251C18729200325A01 /* Release */ = {
+		23EF62D01C187B8900325A01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -303,7 +303,7 @@
 			};
 			name = Release;
 		};
-		23EF62271C18729200325A01 /* Debug */ = {
+		23EF62D21C187B8900325A01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -319,7 +319,7 @@
 			};
 			name = Debug;
 		};
-		23EF62281C18729200325A01 /* Release */ = {
+		23EF62D31C187B8900325A01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -335,7 +335,7 @@
 			};
 			name = Release;
 		};
-		23EF622A1C18729200325A01 /* Debug */ = {
+		23EF62D51C187B8900325A01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = LoanTests/Info.plist;
@@ -345,7 +345,7 @@
 			};
 			name = Debug;
 		};
-		23EF622B1C18729200325A01 /* Release */ = {
+		23EF62D61C187B8900325A01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = LoanTests/Info.plist;
@@ -358,32 +358,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		23EF620C1C18729200325A01 /* Build configuration list for PBXProject "Loan" */ = {
+		23EF62B71C187B8900325A01 /* Build configuration list for PBXProject "Loan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23EF62241C18729200325A01 /* Debug */,
-				23EF62251C18729200325A01 /* Release */,
+				23EF62CF1C187B8900325A01 /* Debug */,
+				23EF62D01C187B8900325A01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		23EF62261C18729200325A01 /* Build configuration list for PBXNativeTarget "Loan" */ = {
+		23EF62D11C187B8900325A01 /* Build configuration list for PBXNativeTarget "Loan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23EF62271C18729200325A01 /* Debug */,
-				23EF62281C18729200325A01 /* Release */,
+				23EF62D21C187B8900325A01 /* Debug */,
+				23EF62D31C187B8900325A01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		23EF62291C18729200325A01 /* Build configuration list for PBXNativeTarget "LoanTests" */ = {
+		23EF62D41C187B8900325A01 /* Build configuration list for PBXNativeTarget "LoanTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23EF622A1C18729200325A01 /* Debug */,
-				23EF622B1C18729200325A01 /* Release */,
+				23EF62D51C187B8900325A01 /* Debug */,
+				23EF62D61C187B8900325A01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 23EF62091C18729200325A01 /* Project object */;
+	rootObject = 23EF62B41C187B8900325A01 /* Project object */;
 }

@@ -7,107 +7,132 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23EF61F21C18728000325A01 /* Trans.h in Headers */ = {isa = PBXBuildFile; fileRef = 23EF61F11C18728000325A01 /* Trans.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23EF61F91C18728000325A01 /* Trans.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23EF61EE1C18728000325A01 /* Trans.framework */; };
-		23EF61FE1C18728000325A01 /* TransTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EF61FD1C18728000325A01 /* TransTests.m */; };
+		23EF629D1C187B7700325A01 /* Trans.h in Headers */ = {isa = PBXBuildFile; fileRef = 23EF629C1C187B7700325A01 /* Trans.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23EF62A41C187B7700325A01 /* Trans.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23EF62991C187B7700325A01 /* Trans.framework */; };
+		23EF62A91C187B7700325A01 /* TransTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EF62A81C187B7700325A01 /* TransTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		23EF61FA1C18728000325A01 /* PBXContainerItemProxy */ = {
+		23EF62A51C187B7700325A01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 23EF61E51C18728000325A01 /* Project object */;
+			containerPortal = 23EF62901C187B7700325A01 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 23EF61ED1C18728000325A01;
+			remoteGlobalIDString = 23EF62981C187B7700325A01;
 			remoteInfo = Trans;
+		};
+		23EF62DC1C187B8B00325A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23EF62D71C187B8900325A01 /* Loan.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 23EF62BD1C187B8900325A01;
+			remoteInfo = Loan;
+		};
+		23EF62DE1C187B8B00325A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23EF62D71C187B8900325A01 /* Loan.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 23EF62C71C187B8900325A01;
+			remoteInfo = LoanTests;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		23EF61EE1C18728000325A01 /* Trans.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Trans.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		23EF61F11C18728000325A01 /* Trans.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trans.h; sourceTree = "<group>"; };
-		23EF61F31C18728000325A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23EF61F81C18728000325A01 /* TransTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		23EF61FD1C18728000325A01 /* TransTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransTests.m; sourceTree = "<group>"; };
-		23EF61FF1C18728000325A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23EF62991C187B7700325A01 /* Trans.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Trans.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23EF629C1C187B7700325A01 /* Trans.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trans.h; sourceTree = "<group>"; };
+		23EF629E1C187B7700325A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23EF62A31C187B7700325A01 /* TransTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23EF62A81C187B7700325A01 /* TransTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransTests.m; sourceTree = "<group>"; };
+		23EF62AA1C187B7700325A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23EF62D71C187B8900325A01 /* Loan.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Loan.xcodeproj; path = ../Loan/Loan.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		23EF61EA1C18728000325A01 /* Frameworks */ = {
+		23EF62951C187B7700325A01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23EF61F51C18728000325A01 /* Frameworks */ = {
+		23EF62A01C187B7700325A01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23EF61F91C18728000325A01 /* Trans.framework in Frameworks */,
+				23EF62A41C187B7700325A01 /* Trans.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23EF61E41C18728000325A01 = {
+		23EF628F1C187B7700325A01 = {
 			isa = PBXGroup;
 			children = (
-				23EF61F01C18728000325A01 /* Trans */,
-				23EF61FC1C18728000325A01 /* TransTests */,
-				23EF61EF1C18728000325A01 /* Products */,
+				23EF62D71C187B8900325A01 /* Loan.xcodeproj */,
+				23EF629B1C187B7700325A01 /* Trans */,
+				23EF62A71C187B7700325A01 /* TransTests */,
+				23EF629A1C187B7700325A01 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		23EF61EF1C18728000325A01 /* Products */ = {
+		23EF629A1C187B7700325A01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				23EF61EE1C18728000325A01 /* Trans.framework */,
-				23EF61F81C18728000325A01 /* TransTests.xctest */,
+				23EF62991C187B7700325A01 /* Trans.framework */,
+				23EF62A31C187B7700325A01 /* TransTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		23EF61F01C18728000325A01 /* Trans */ = {
+		23EF629B1C187B7700325A01 /* Trans */ = {
 			isa = PBXGroup;
 			children = (
-				23EF61F11C18728000325A01 /* Trans.h */,
-				23EF61F31C18728000325A01 /* Info.plist */,
+				23EF629C1C187B7700325A01 /* Trans.h */,
+				23EF629E1C187B7700325A01 /* Info.plist */,
 			);
 			path = Trans;
 			sourceTree = "<group>";
 		};
-		23EF61FC1C18728000325A01 /* TransTests */ = {
+		23EF62A71C187B7700325A01 /* TransTests */ = {
 			isa = PBXGroup;
 			children = (
-				23EF61FD1C18728000325A01 /* TransTests.m */,
-				23EF61FF1C18728000325A01 /* Info.plist */,
+				23EF62A81C187B7700325A01 /* TransTests.m */,
+				23EF62AA1C187B7700325A01 /* Info.plist */,
 			);
 			path = TransTests;
+			sourceTree = "<group>";
+		};
+		23EF62D81C187B8900325A01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23EF62DD1C187B8B00325A01 /* Loan.framework */,
+				23EF62DF1C187B8B00325A01 /* LoanTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		23EF61EB1C18728000325A01 /* Headers */ = {
+		23EF62961C187B7700325A01 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23EF61F21C18728000325A01 /* Trans.h in Headers */,
+				23EF629D1C187B7700325A01 /* Trans.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		23EF61ED1C18728000325A01 /* Trans */ = {
+		23EF62981C187B7700325A01 /* Trans */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23EF62021C18728000325A01 /* Build configuration list for PBXNativeTarget "Trans" */;
+			buildConfigurationList = 23EF62AD1C187B7700325A01 /* Build configuration list for PBXNativeTarget "Trans" */;
 			buildPhases = (
-				23EF61E91C18728000325A01 /* Sources */,
-				23EF61EA1C18728000325A01 /* Frameworks */,
-				23EF61EB1C18728000325A01 /* Headers */,
-				23EF61EC1C18728000325A01 /* Resources */,
+				23EF62941C187B7700325A01 /* Sources */,
+				23EF62951C187B7700325A01 /* Frameworks */,
+				23EF62961C187B7700325A01 /* Headers */,
+				23EF62971C187B7700325A01 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -115,71 +140,94 @@
 			);
 			name = Trans;
 			productName = Trans;
-			productReference = 23EF61EE1C18728000325A01 /* Trans.framework */;
+			productReference = 23EF62991C187B7700325A01 /* Trans.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		23EF61F71C18728000325A01 /* TransTests */ = {
+		23EF62A21C187B7700325A01 /* TransTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23EF62051C18728000325A01 /* Build configuration list for PBXNativeTarget "TransTests" */;
+			buildConfigurationList = 23EF62B01C187B7700325A01 /* Build configuration list for PBXNativeTarget "TransTests" */;
 			buildPhases = (
-				23EF61F41C18728000325A01 /* Sources */,
-				23EF61F51C18728000325A01 /* Frameworks */,
-				23EF61F61C18728000325A01 /* Resources */,
+				23EF629F1C187B7700325A01 /* Sources */,
+				23EF62A01C187B7700325A01 /* Frameworks */,
+				23EF62A11C187B7700325A01 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				23EF61FB1C18728000325A01 /* PBXTargetDependency */,
+				23EF62A61C187B7700325A01 /* PBXTargetDependency */,
 			);
 			name = TransTests;
 			productName = TransTests;
-			productReference = 23EF61F81C18728000325A01 /* TransTests.xctest */;
+			productReference = 23EF62A31C187B7700325A01 /* TransTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		23EF61E51C18728000325A01 /* Project object */ = {
+		23EF62901C187B7700325A01 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "代碧";
 				TargetAttributes = {
-					23EF61ED1C18728000325A01 = {
+					23EF62981C187B7700325A01 = {
 						CreatedOnToolsVersion = 7.1;
 					};
-					23EF61F71C18728000325A01 = {
+					23EF62A21C187B7700325A01 = {
 						CreatedOnToolsVersion = 7.1;
 					};
 				};
 			};
-			buildConfigurationList = 23EF61E81C18728000325A01 /* Build configuration list for PBXProject "Trans" */;
+			buildConfigurationList = 23EF62931C187B7700325A01 /* Build configuration list for PBXProject "Trans" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 23EF61E41C18728000325A01;
-			productRefGroup = 23EF61EF1C18728000325A01 /* Products */;
+			mainGroup = 23EF628F1C187B7700325A01;
+			productRefGroup = 23EF629A1C187B7700325A01 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 23EF62D81C187B8900325A01 /* Products */;
+					ProjectRef = 23EF62D71C187B8900325A01 /* Loan.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				23EF61ED1C18728000325A01 /* Trans */,
-				23EF61F71C18728000325A01 /* TransTests */,
+				23EF62981C187B7700325A01 /* Trans */,
+				23EF62A21C187B7700325A01 /* TransTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		23EF62DD1C187B8B00325A01 /* Loan.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Loan.framework;
+			remoteRef = 23EF62DC1C187B8B00325A01 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		23EF62DF1C187B8B00325A01 /* LoanTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LoanTests.xctest;
+			remoteRef = 23EF62DE1C187B8B00325A01 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
-		23EF61EC1C18728000325A01 /* Resources */ = {
+		23EF62971C187B7700325A01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23EF61F61C18728000325A01 /* Resources */ = {
+		23EF62A11C187B7700325A01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -189,33 +237,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		23EF61E91C18728000325A01 /* Sources */ = {
+		23EF62941C187B7700325A01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23EF61F41C18728000325A01 /* Sources */ = {
+		23EF629F1C187B7700325A01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23EF61FE1C18728000325A01 /* TransTests.m in Sources */,
+				23EF62A91C187B7700325A01 /* TransTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		23EF61FB1C18728000325A01 /* PBXTargetDependency */ = {
+		23EF62A61C187B7700325A01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 23EF61ED1C18728000325A01 /* Trans */;
-			targetProxy = 23EF61FA1C18728000325A01 /* PBXContainerItemProxy */;
+			target = 23EF62981C187B7700325A01 /* Trans */;
+			targetProxy = 23EF62A51C187B7700325A01 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		23EF62001C18728000325A01 /* Debug */ = {
+		23EF62AB1C187B7700325A01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,7 +310,7 @@
 			};
 			name = Debug;
 		};
-		23EF62011C18728000325A01 /* Release */ = {
+		23EF62AC1C187B7700325A01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -303,7 +351,7 @@
 			};
 			name = Release;
 		};
-		23EF62031C18728000325A01 /* Debug */ = {
+		23EF62AE1C187B7700325A01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -319,7 +367,7 @@
 			};
 			name = Debug;
 		};
-		23EF62041C18728000325A01 /* Release */ = {
+		23EF62AF1C187B7700325A01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -335,7 +383,7 @@
 			};
 			name = Release;
 		};
-		23EF62061C18728000325A01 /* Debug */ = {
+		23EF62B11C187B7700325A01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = TransTests/Info.plist;
@@ -345,7 +393,7 @@
 			};
 			name = Debug;
 		};
-		23EF62071C18728000325A01 /* Release */ = {
+		23EF62B21C187B7700325A01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = TransTests/Info.plist;
@@ -358,32 +406,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		23EF61E81C18728000325A01 /* Build configuration list for PBXProject "Trans" */ = {
+		23EF62931C187B7700325A01 /* Build configuration list for PBXProject "Trans" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23EF62001C18728000325A01 /* Debug */,
-				23EF62011C18728000325A01 /* Release */,
+				23EF62AB1C187B7700325A01 /* Debug */,
+				23EF62AC1C187B7700325A01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		23EF62021C18728000325A01 /* Build configuration list for PBXNativeTarget "Trans" */ = {
+		23EF62AD1C187B7700325A01 /* Build configuration list for PBXNativeTarget "Trans" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23EF62031C18728000325A01 /* Debug */,
-				23EF62041C18728000325A01 /* Release */,
+				23EF62AE1C187B7700325A01 /* Debug */,
+				23EF62AF1C187B7700325A01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		23EF62051C18728000325A01 /* Build configuration list for PBXNativeTarget "TransTests" */ = {
+		23EF62B01C187B7700325A01 /* Build configuration list for PBXNativeTarget "TransTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23EF62061C18728000325A01 /* Debug */,
-				23EF62071C18728000325A01 /* Release */,
+				23EF62B11C187B7700325A01 /* Debug */,
+				23EF62B21C187B7700325A01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 23EF61E51C18728000325A01 /* Project object */;
+	rootObject = 23EF62901C187B7700325A01 /* Project object */;
 }
